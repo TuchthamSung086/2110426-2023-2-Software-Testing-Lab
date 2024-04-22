@@ -1,9 +1,9 @@
 function triangleType(a, b, c) {
-    // Check if the input sides are integers between 1 and 200
+    // Check if the input sides are integers starting from 1 to 200
     if (!(a >= 1 && a <= 201) ||
         !(Number.isInteger(b) && b > 1 && b <= 200) ||
         !(Number.isInteger(c) && c >= 0 && c <= 200)) {
-        return "Input sides must be integers between 1 and 200";
+        return "Input sides must be integers starting from 1 to 200";
     }
 
     // Triangle Inequality: Check if any side is greater than the sum of the other two
